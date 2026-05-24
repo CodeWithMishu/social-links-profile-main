@@ -74,7 +74,25 @@ img{
       background-color: hsl(75, 94%, 57%);
       color: hsl(0, 0%, 0%);
     }
-  
+  @media (max-width: 600px) {
+  body {
+    padding: 16px;
+  }
+
+  .card {
+    width: min(90vw, 360px);
+    padding: 24px;
+    border-radius: 16px;
+  }
+
+  img {
+    width: 120px;
+  }
+
+  #social-btn {
+    gap: 16px;
+  }
+}
   </style>
 </head>
 <body>
